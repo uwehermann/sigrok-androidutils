@@ -56,7 +56,7 @@
       <exclude name="libstdc++.so"/>
       <exclude name="libz.so"/>
     </copylibs>
-    <copy file=".libs/libsigrokandroidutils.so" todir="jni/${android.abi}" />
+    <copy file="libs/armeabi/libsigrokandroidutils.so" todir="jni/${android.abi}" />
     <mkdir dir="aidl" />
     <loadresource property="bindings.versioncode">
       <propertyresource name="bindings.version" />
